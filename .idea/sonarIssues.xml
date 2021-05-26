@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/Android-WTXT-SDK20200912/wtxtsdk/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-TA/app/src/main/TA-core/src/etds/command/etds_command_ta.c">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-TA/app/src/main/TA-core/src/etds/command/etds_process_message.c">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-TA/app/src/main/TA-core/src/etds/ta/etds_ta_manager.c">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-TA/app/src/main/TA-debug/src/etds/platform/mem/local/etds_mem_util.c">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-TA/app/src/main/cpp/libtee/command/etds_command_channel.cpp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-TA/app/src/main/cpp/libtee/command/etds_command_key.c">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-TA/app/src/main/cpp/libtee/command/etds_command_ta.c">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-TA/app/src/main/cpp/libtest/etds_gm_test.c">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-TA/app/src/main/cpp/libtest/etds_ta_test.cpp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-TA/app/src/main/cpp/libtest/include/etds_gm_test.h">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-TA/app/src/main/java/com/esandinfo/etds/activity/TestSM2Activity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-TA/app/src/main/java/com/esandinfo/etds/activity/TestTAActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-TA/app/src/main/java/com/esandinfo/etds/test/TestCmdHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-TEST/app/src/main/java/com/esandinfo/android/activity/SignActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-TEST/esand_cloud_demo_eTDS-Android_v1.4.0_release/demo/app/src/main/java/com/esandinfo/android/activity/SignActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-TEST/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/bio/BioSupport.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/app/src/main/java/com/esandinfo/android/activity/CertManagerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/app/src/main/java/com/esandinfo/android/activity/EtdsCertManagerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/app/src/main/java/com/esandinfo/android/activity/SignActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/app/src/main/java/com/esandinfo/android/utils/HttpUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/bean/BaseBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/bean/BaseEntry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/bean/BaseResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/bean/CertEntry.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/bean/CertInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/bean/Etds.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/bean/EtdsRequest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/bean/EtdsResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/bean/UserInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/cert/ApplayCert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/cert/ApplyCert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/cert/BuildEtdsUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/cert/CertSupport.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/cert/CheckCert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/cert/DeleteCert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/implement/ApplyCert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/implement/EtdsApplyCert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/implement/EtdsCertManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/implement/EtdsCertSign.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/implement/EtdsCheckCert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/implement/EtdsClient.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/implement/EtdsClientImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/implement/EtdsDelectCert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/implement/EtdsDeleteCert.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/implement/EtdsRequestBaseInfo.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/implement/HttpRequestHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/implement/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/implement/Utils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/signer/EtdsSignerSupport.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore-3.0/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/utils/DeviceUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-keystore/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/ta/manager/TaManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-wtxt/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-wtxt/app/src/main/java/com/esandinfo/android/activity/EtdsSettingActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-wtxt/app/src/main/java/com/esandinfo/android/constants/CommonConstants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-wtxt/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-wtxt/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-wtxt/settings.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-wtxt/wtxtsdk/.cxx/ndk_locator_record.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/app/src/main/java/com/esandinfo/android/activity/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/app/src/main/java/com/esandinfo/android/activity/MyHomeActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/app/src/main/java/com/esandinfo/android/utils/SaveDataUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/esand_cloud_eTDS/CMakeLists.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/esand_cloud_eTDS/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/esand_cloud_eTDS/src/main/cpp/CMakeLists.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/esand_cloud_eTDS/src/main/cpp/tee-lib.cpp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/EtdsManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/ta/TaManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/ta/entity/response/SecureBaseResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/ta/entity/response/SecureDeviceSignResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/ta/entity/response/SecureEncDataResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/ta/entity/response/SecureStoreDataResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/ta/jni/TeeCmdHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/ta/manager/TaManager.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/esand_cloud_eTDS/src/main/java/com/esandinfo/etds/utils/DeviceUtil.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/etds-android-xindun/gradle/wrapper/gradle-wrapper.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/ifaa-adapter/etas/src/main/java/com/esandinfo/etas/biz/EtasAuthentication.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../EsandInfo/ifaa-adapter/etasAndroidDemo/src/main/java/com/esandinfo/utils/Utils.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GitHub/MyImageEditor/imageeditlibrary/src/main/java/com/xinlan/imageeditlibrary/editimage/fragment/AddTextFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GitHub/MyImageEditor/imageeditlibrary/src/main/java/com/xinlan/imageeditlibrary/editimage/fragment/BeautyFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GitHub/MyImageEditor/imageeditlibrary/src/main/java/com/xinlan/imageeditlibrary/editimage/fragment/CropFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GitHub/MyImageEditor/imageeditlibrary/src/main/java/com/xinlan/imageeditlibrary/editimage/fragment/FilterListFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GitHub/MyImageEditor/imageeditlibrary/src/main/java/com/xinlan/imageeditlibrary/editimage/fragment/PaintFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../GitHub/MyImageEditor/imageeditlibrary/src/main/res/values-zh/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/CMakeLists.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/wmdming/ndkdemo/JavaCallC.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/cpp/CMakeLists.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/cpp/include/native-lib.h">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/cpp/mylog.cpp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/cpp/mylog.h">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/cpp/native-lib.c">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/cpp/native-lib.cpp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/cpp/native-lib.h">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/cpp/test.cpp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/cpp/test.h">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/wmdming/ndkdemo/CCallJava.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/wmdming/ndkdemo/JavaCallC.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/wmdming/ndkdemo/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/jni/native-lib.h">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/settings.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NDKDemo2/app/.cxx/ndk_locator_record.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NDKDemo2/app/CMakeLists.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NDKDemo2/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NDKDemo2/app/src/main/cpp/CMakeLists.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NDKDemo2/app/src/main/cpp/include/native-lib.h">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NDKDemo2/app/src/main/cpp/native-demo.cpp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NDKDemo2/app/src/main/cpp/native.cpp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NDKDemo2/app/src/main/cpp/ndkdemo2.c">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NDKDemo2/app/src/main/cpp/ndkdemo2.h">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NDKDemo2/app/src/main/java/com/wmding/ndkdemo2/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NDKTest/app/src/main/cpp/native-lib.cpp">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../NDKTest/app/src/main/java/com/wmding/ndktest/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
