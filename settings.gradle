@@ -1,1 +1,4 @@
 include ':app'
+include ':myndk'
+include ':myndk2'
+include ':myndk3'
