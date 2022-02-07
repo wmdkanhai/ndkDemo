@@ -287,5 +287,101 @@ Java_com_wmdming_ndkdemo_JavaCallC_sendCmd(JNIEnv *env, jobject thiz, jbyteArray
         free(in_data);
     }
 
+    if (jclass) {
+        env->DeleteLocalRef(jclass);
+    }
+
+    return object;
+}
+
+
+#define TYPE1 0x0001
+#define TYPE2 0x0002
+
+extern "C"
+JNIEXPORT jobject JNICALL
+Java_com_wmdming_ndkdemo_JavaCallC_commonSendCmd(JNIEnv *env, jobject thiz, jint cmd,
+                                                 jbyteArray data) {
+
+    uint32_t in_data_len = 0;
+    uint8_t *in_data = NULL;
+
+    uint32_t out_data_len = 0;
+    uint8_t *out_data = NULL;
+
+    uint32_t offset = 0;
+
+    jclass jclass = env->FindClass("com/wmdming/ndkdemo/CmdResult");
+
+    jmethodID construct = env->GetMethodID(jclass, "<init>", "()V");
+    jobject object = env->NewObject(jclass, construct);
+
+    jmethodID setCodeMethod = env->GetMethodID(jclass, "setCode", "(I)V");
+
+    jmethodID setDataMethod = env->GetMethodID(jclass, "setData", "([B)V");
+
+    if (data != NULL) {
+        in_data_len = (env)->GetArrayLength(data);
+        in_data = (uint8_t *) malloc(in_data_len);
+        if (NULL == in_data) {
+            goto RELEASE;
+        }
+        memset(in_data, 0, in_data_len);
+        (env)->GetByteArrayRegion(data, 0, in_data_len, (jbyte *) in_data);
+    }
+
+    out_data_len = 0x400;
+
+    out_data = (uint8_t *) malloc(out_data_len);
+    if (NULL == out_data) {
+        goto RELEASE;
+    }
+    memset(out_data, 0, out_data_len);
+
+
+    LOGI("cmd: %d", cmd);
+    switch (cmd) {
+
+        case TYPE1:
+            // 实现字符串追加，test9hello1world
+
+            offset += writeBufferData(out_data, out_data_len, in_data, in_data_len);
+
+            char *str1 = "hello1";
+
+            int str1_len = strlen(str1);
+
+            offset += writeBufferData(out_data + offset, out_data_len - offset,
+                                      reinterpret_cast<uint8_t *>(str1), str1_len);
+            char *str2 = "world";
+            int str2_len = strlen(str2);
+
+            offset += writeBufferData(out_data + offset, out_data_len - offset,
+                                      reinterpret_cast<uint8_t *>(str2), str2_len);
+
+            out_data_len = offset;
+
+            break;
+    }
+
+    if (out_data && out_data_len > 0) {
+        jbyteArray jdata = env->NewByteArray(out_data_len);
+        env->SetByteArrayRegion(jdata, 0, out_data_len, (const jbyte *) out_data);
+        env->CallVoidMethod(object, setDataMethod, jdata);
+    }
+
+
+    env->CallVoidMethod(object, setCodeMethod, 0);
+
+
+    RELEASE:
+    if (in_data) {
+        free(in_data);
+    }
+
+    if (jclass) {
+        env->DeleteLocalRef(jclass);
+    }
+
     return object;
 }

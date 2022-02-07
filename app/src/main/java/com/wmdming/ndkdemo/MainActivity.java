@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.orhanobut.logger.AndroidLogAdapter;
@@ -23,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         initData();
 
         // Example of a call to a native method
-        TextView tv = findViewById(R.id.sample_text);
+        Button btn = findViewById(R.id.sample_text);
 //        JavaCallC javaCallC = new JavaCallC();
 //        tv.setText(javaCallC.stringFromJNI());
 
@@ -65,14 +66,25 @@ public class MainActivity extends AppCompatActivity {
 //        cCallJava.callbackSayHello();
 
 
-        tv.setOnClickListener(new OnClickListener() {
+        btn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                test8();
+                test9();
             }
 
 
         });
+    }
+
+    private void test9() {
+        // 返回对象
+        JavaCallC javaCallC = new JavaCallC();
+
+        String msg = "test9";
+
+        CmdResult cmdResult = javaCallC.commonSendCmd(1, msg.getBytes());
+        Logger.e("cmdResult.code: " + cmdResult.getCode());
+        Logger.e("cmdResult.data: " + new String(cmdResult.getData()));
     }
 
 
@@ -85,7 +97,6 @@ public class MainActivity extends AppCompatActivity {
         CmdResult cmdResult = javaCallC.sendCmd(msg.getBytes());
         Logger.e("cmdResult.code: " + cmdResult.getCode());
         Logger.e("cmdResult.data: " + new String(cmdResult.getData()));
-        Logger.e("cmdResult.msg: " + cmdResult.getMsg());
     }
 
     public void test7() {
@@ -94,7 +105,6 @@ public class MainActivity extends AppCompatActivity {
         CmdResult cmdResult = javaCallC.getCmdResult();
         Logger.e("cmdResult.code: " + cmdResult.getCode());
         Logger.e("cmdResult.data: " + new String(cmdResult.getData()));
-        Logger.e("cmdResult.msg: " + cmdResult.getMsg());
     }
 
     private void test6() {
@@ -144,6 +154,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initData() {
+
+        // 对日志工具进行初始化
         Logger.addLogAdapter(new AndroidLogAdapter());
     }
 

@@ -35,9 +35,17 @@ public class JavaCallC {
 
     public native byte[] getByte2(byte[] name);
 
-    public native int add(int a,int b);
+    public native int add(int a, int b);
 
     public native CmdResult getCmdResult();
 
     public native CmdResult sendCmd(byte[] data);
+
+    /**
+     * 通用的和C交互的接口
+     * @param cmd 定义不同的类型
+     * @param data 传入的数据
+     * @return
+     */
+    public native CmdResult commonSendCmd(int cmd, byte[] data);
 }
