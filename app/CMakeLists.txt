@@ -23,6 +23,7 @@ add_library( # Sets the name of the library.
         src/main/cpp/test.cpp
         src/main/cpp/mylog.cpp
         src/main/cpp/utils.cpp
+        src/main/cpp/utils/data_utils.cpp
         )
 
 # Searches for a specified prebuilt library and stores the path as a

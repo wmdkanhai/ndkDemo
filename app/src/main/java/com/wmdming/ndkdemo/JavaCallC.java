@@ -36,4 +36,8 @@ public class JavaCallC {
     public native byte[] getByte2(byte[] name);
 
     public native int add(int a,int b);
+
+    public native CmdResult getCmdResult();
+
+    public native CmdResult sendCmd(byte[] data);
 }

@@ -68,11 +68,33 @@ public class MainActivity extends AppCompatActivity {
         tv.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                test4();
+                test8();
             }
 
 
         });
+    }
+
+
+    public void test8() {
+        // 返回对象
+        JavaCallC javaCallC = new JavaCallC();
+
+        String msg = "hello";
+
+        CmdResult cmdResult = javaCallC.sendCmd(msg.getBytes());
+        Logger.e("cmdResult.code: " + cmdResult.getCode());
+        Logger.e("cmdResult.data: " + new String(cmdResult.getData()));
+        Logger.e("cmdResult.msg: " + cmdResult.getMsg());
+    }
+
+    public void test7() {
+        // 返回对象
+        JavaCallC javaCallC = new JavaCallC();
+        CmdResult cmdResult = javaCallC.getCmdResult();
+        Logger.e("cmdResult.code: " + cmdResult.getCode());
+        Logger.e("cmdResult.data: " + new String(cmdResult.getData()));
+        Logger.e("cmdResult.msg: " + cmdResult.getMsg());
     }
 
     private void test6() {

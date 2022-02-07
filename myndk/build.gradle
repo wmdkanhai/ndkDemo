@@ -27,6 +27,7 @@ android {
     }
     externalNativeBuild {
         cmake {
+            // 指定 CMakeLists.txt 的路径
             path "src/main/cpp/CMakeLists.txt"
             version "3.10.2"
         }

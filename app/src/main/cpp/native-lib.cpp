@@ -191,3 +191,101 @@ Java_com_wmdming_ndkdemo_JavaCallC_add(JNIEnv *env, jobject thiz, jint a, jint b
 
 
 
+extern "C"
+JNIEXPORT jobject JNICALL
+Java_com_wmdming_ndkdemo_JavaCallC_getCmdResult(JNIEnv *env, jobject thiz) {
+
+    //   这两种类型 都可以获得class引用
+    jclass jclass = env->FindClass("com/wmdming/ndkdemo/CmdResult");
+    jmethodID construct = env->GetMethodID(jclass, "<init>", "()V");
+    jobject object = env->NewObject(jclass, construct);
+    jmethodID setCodeMethod = env->GetMethodID(jclass, "setCode", "(I)V");
+    env->CallVoidMethod(object, setCodeMethod, 0);
+    jmethodID setDataMethod = env->GetMethodID(jclass, "setData", "([B)V");
+
+    char *c_data = "hhaha";
+    // char 转 byte
+    jbyteArray data = charToByteArray(env, c_data);
+    env->CallVoidMethod(object, setDataMethod, data);
+
+    return object;
+}
+
+
+int memerycpy(void *dest, uint32_t dest_max_size, void *src, uint32_t src_size) {
+    if (NULL == dest || dest_max_size < 1 || NULL == src || src_size < 1) {
+        return 1;
+    }
+    if (dest_max_size < src_size) {
+        LOGE("The memcpy dest length is too short, the expected value is %x, the actual value is %x.",
+             src_size, dest_max_size);
+        return 1;
+    }
+    memcpy(dest, src, src_size);
+    return 0;
+}
+
+uint32_t writeBufferData(uint8_t *dest, uint32_t dest_len, uint8_t *src, uint32_t src_len) {
+    int ret = memerycpy(dest, dest_len, src, src_len);
+    return ret == 0 ? src_len : 0;
+}
+
+extern "C"
+JNIEXPORT jobject JNICALL
+Java_com_wmdming_ndkdemo_JavaCallC_sendCmd(JNIEnv *env, jobject thiz, jbyteArray data) {
+
+    uint32_t in_data_len = 0;
+    uint8_t *in_data = NULL;
+
+    uint32_t out_data_len = 0;
+    uint8_t *out_data = NULL;
+
+    uint32_t offset = 0;
+
+    jclass jclass = env->FindClass("com/wmdming/ndkdemo/CmdResult");
+
+    jmethodID construct = env->GetMethodID(jclass, "<init>", "()V");
+    jobject object = env->NewObject(jclass, construct);
+
+    jmethodID setCodeMethod = env->GetMethodID(jclass, "setCode", "(I)V");
+    env->CallVoidMethod(object, setCodeMethod, 0);
+
+
+    jmethodID setDataMethod = env->GetMethodID(jclass, "setData", "([B)V");
+
+    if (data != NULL) {
+        in_data_len = (env)->GetArrayLength(data);
+        in_data = (uint8_t *) malloc(in_data_len);
+        if (NULL == in_data) {
+            goto RELEASE;
+        }
+        memset(in_data, 0, in_data_len);
+        (env)->GetByteArrayRegion(data, 0, in_data_len, (jbyte *) in_data);
+    }
+
+    out_data_len = 0x400;
+
+    out_data = (uint8_t *) malloc(out_data_len);
+    if (NULL == out_data) {
+        goto RELEASE;
+    }
+    memset(out_data, 0, out_data_len);
+
+    offset += writeBufferData(out_data, out_data_len, in_data, in_data_len);
+
+    out_data_len = offset;
+
+    if (out_data && out_data_len > 0) {
+        jbyteArray jdata = env->NewByteArray(out_data_len);
+        env->SetByteArrayRegion(jdata, 0, out_data_len, (const jbyte *) out_data);
+        env->CallVoidMethod(object, setDataMethod, jdata);
+    }
+
+
+    RELEASE:
+    if (in_data) {
+        free(in_data);
+    }
+
+    return object;
+}
